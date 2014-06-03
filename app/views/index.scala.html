@@ -1,0 +1,9 @@
+@(message: String)
+@import helper._
+
+@form(action = routes.Application.solution()){
+a <input type="text" id="a" name="a"/><br>
+b <input type="text" id="b" name="b"/><br>
+c <input type="text" id="c" name="c"/><br>
+<input type="submit" value="Solution">
+}
